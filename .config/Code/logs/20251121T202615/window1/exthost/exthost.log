@@ -1,0 +1,12 @@
+2025-11-21 20:26:16.851 [info] Extension host with pid 29023 started
+2025-11-21 20:26:16.852 [info] Skipping acquiring lock for /home/rain/.config/Code/User/workspaceStorage/bfa48c10572e68b5f42b3c4625c265fc.
+2025-11-21 20:26:16.925 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-21 20:26:16.946 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-21 20:26:17.036 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-21 20:26:17.063 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-21 20:26:17.103 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-21 20:26:17.211 [info] Eager extensions activated
+2025-11-21 20:26:17.220 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-21 20:26:17.222 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-21 20:27:35.106 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-21 20:27:35.122 [info] Extension host with pid 29023 exiting with code 0

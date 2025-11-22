@@ -1,0 +1,23 @@
+2025-11-21 20:32:45.235 [info] Extension host with pid 44952 started
+2025-11-21 20:32:45.235 [info] Skipping acquiring lock for /home/rain/.config/Code/User/workspaceStorage/bfa48c10572e68b5f42b3c4625c265fc.
+2025-11-21 20:32:45.388 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-21 20:32:45.419 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-21 20:32:45.562 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-21 20:32:45.571 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-21 20:32:45.642 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-21 20:32:45.817 [info] Eager extensions activated
+2025-11-21 20:32:45.824 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-21 20:32:45.827 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-21 20:32:48.205 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-21 20:32:48.223 [error] ProxyResolver#resolveProxy undefined Canceled: Canceled
+	at Vl (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:7:1394)
+	at file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121472
+	at Array.forEach (<anonymous>)
+	at JS.dispose (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:121412)
+	at kX.terminate (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10208)
+	at nN.terminate (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+	at Fs (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:10411)
+	at MessagePortMain.<anonymous> (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:402:6949)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949) 
+2025-11-21 20:32:48.249 [info] Extension host with pid 44952 exiting with code 0

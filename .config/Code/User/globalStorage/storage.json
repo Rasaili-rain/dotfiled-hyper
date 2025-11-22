@@ -1,0 +1,92 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "0390f62a99e1566cd0ad10a28b5cc25f97b8fea0d769445c996fa9e19e027884",
+    "telemetry.devDeviceId": "42141aff-5f82-46c2-86a4-b63d5563066a",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/rain/.local"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 30,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/rain/.config": "__default__profile__",
+            "file:///home/rain/HyDE": "__default__profile__",
+            "file:///home/rain/.local": "__default__profile__",
+            "file:///home/rain/.themes": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 240,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/rain/.local",
+            "backupPath": "/home/rain/.config/Code/Backups/1e37bbfb82b9a0a9caebf5433ee02b70",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 960,
+                "height": 1080
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 240,
+            "auxiliaryBarWidth": 240,
+            "workspaces": {
+                "e87be696040b2fb0dd9d8221a1798732": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "bfa48c10572e68b5f42b3c4625c265fc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "166fe020e8b8c76a4fa4ecfe5c91f66b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8019019ab57f461e132934a8f924e466": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                }
+            }
+        }
+    }
+}

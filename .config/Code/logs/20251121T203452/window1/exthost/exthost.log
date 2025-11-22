@@ -1,0 +1,41 @@
+2025-11-21 20:34:54.455 [info] Extension host with pid 49642 started
+2025-11-21 20:34:54.495 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-21 20:34:54.522 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-21 20:34:54.589 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-21 20:34:54.600 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-21 20:34:54.647 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-21 20:34:54.767 [info] Eager extensions activated
+2025-11-21 20:34:54.770 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-21 20:34:54.771 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-21 20:34:54.938 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-21 20:34:54.964 [error] ProxyResolver#addCertificatesV1 Canceled: Canceled
+	at new ij (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:120021)
+	at JS.U (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:124631)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:122125)
+	at My.loadCertificates (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:111:76705)
+	at Object.loadAdditionalCertificates (file:///var/lib/snapd/snap/code/214/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:212:20586)
+	at /var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:808:49
+	at Generator.next (<anonymous>)
+	at /var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at /var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:807:33
+	at /var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:810:20
+	at Generator.next (<anonymous>)
+	at /var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:35:71
+	at new Promise (<anonymous>)
+	at __awaiter (/var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:31:12)
+	at getOrLoadAdditionalCertificates (/var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:803:12)
+	at addCertificatesToOptionsV1 (/var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:783:9)
+	at resolveProxyWithRequest (/var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:140:9)
+	at /var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:372:77
+	at new Promise (<anonymous>)
+	at PacProxyAgent.resolveP [as resolver] (/var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/index.js:372:54)
+	at PacProxyAgent.<anonymous> (/var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:74:37)
+	at Generator.next (<anonymous>)
+	at /var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:8:71
+	at new Promise (<anonymous>)
+	at __awaiter (/var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:4:12)
+	at PacProxyAgent.connect (/var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/@vscode/proxy-agent/out/agent.js:56:16)
+	at /var/lib/snapd/snap/code/214/usr/share/code/resources/app/node_modules/agent-base/dist/index.js:132:30
+2025-11-21 20:34:54.964 [info] Extension host with pid 49642 exiting with code 0
